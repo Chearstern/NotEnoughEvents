@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ru.redguy.notenoughevents.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "notenoughevents.refmap.json",
+  "mixins": [
+    "EntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
